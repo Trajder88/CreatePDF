@@ -1,10 +1,10 @@
-const express = require('express'); // Użyj require zamiast import
-const viewEngine = require('./config/viewEngine'); // Użyj require zamiast import
-const initWebRoutes = require('./routes/web'); // Użyj require zamiast import
-const bodyParser = require('body-parser'); // Użyj require zamiast import
-const cookieParser = require('cookie-parser'); // Użyj require zamiast import
-const session = require('express-session'); // Użyj require zamiast import
-const passport = require('passport'); // Dodaj import dla passport, jeśli nie było go wcześniej
+const express = require('express'); 
+const viewEngine = require('./config/viewEngine'); 
+const initWebRoutes = require('./routes/web'); 
+const bodyParser = require('body-parser'); 
+const cookieParser = require('cookie-parser'); 
+const session = require('express-session'); 
+const passport = require('passport'); 
 const path = require('path');
 
 
