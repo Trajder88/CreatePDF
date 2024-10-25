@@ -37,14 +37,4 @@ router.get('/', async (req, res, next) => {
     }
 });
 
-router.get('/chart', async (req, res, next) => {
-    try {
-       
-        // console.log("data [web.js]: ", data)
-        res.render('chart');
-    } catch (error) {
-        next(error);
-    }
-});
-
 module.exports = initWebRoutes;
